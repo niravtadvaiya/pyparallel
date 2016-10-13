@@ -83,7 +83,7 @@ import numpy as np
 import async
 
 one_billion = 1000000000
-large_array = np.random.randints(low=0, high=100, size=one_billion)
+large_array = np.random.randint(low=0, high=100, size=one_billion)
 fmt = 'The sum of the items in slice [%d:%d] is %d'
 
 class Random:
